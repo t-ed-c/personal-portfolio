@@ -112,6 +112,48 @@ nav ul li a:hover{
     margin-bottom: 45px;
 }
 
+.projects{
+    color: #fff;
+    width: 100%;
+    padding: 100px 0px;
+    background-color:var(--BGCOLOR1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    line-height: 100px;
+}
+
+.projects h2{
+    color: #fff;
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+
+.projects p{ color: antiquewhite;
+    letter-spacing: normal;
+    line-height: 27px;
+    font-size: 20px;
+    margin-bottom: 45px;
+    
+}
+
+.projects a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200px;
+}
+
+.projects a:hover{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 1px solid transparent;
+    padding: 10px 25px;
+    border-radius: 67px;
+    transition:transform ,1s;
+}
+
 button{
     background-color: red;
     color: aliceblue;
