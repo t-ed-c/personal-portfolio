@@ -1,0 +1,169 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-sizing: border-box;
+}
+:root{
+    --BGCOLOR1:black;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-color:var(--BGCOLOR1);
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+
+}
+
+.logo{
+    color: antiquewhite;
+    font-size: 35px;
+    letter-spacing: normal;
+    cursor: pointer;
+}
+
+span{
+    color: red;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 200px;
+}
+
+nav ul li a:hover{
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 10px 25px;
+    border-radius: 67px;
+    transition:transform ,1s;
+}
+
+.content{
+    position: absolute;
+    color: #fff;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 100px;
+}
+
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color:var(--BGCOLOR1);
+
+}
+
+.about img{
+    height:auto ;
+    width: 430px;
+}
+
+.about-text{
+    width:550px ;
+}
+
+.main{
+    width: 1130px;
+    max-width :95%; 
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;  
+}
+
+.about-text h2 {
+    color: white;
+    font-size: 75px;
+    margin-bottom: 20px;
+}
+
+.about-text h5 {
+    color: red;
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin-bottom: 25px;
+}
+
+.about-text p{
+    color: antiquewhite;
+    letter-spacing: normal;
+    line-height: 27px;
+    font-size: 20px;
+    margin-bottom: 45px;
+}
+
+button{
+    background-color: red;
+    color: aliceblue;
+    border:2px solid transparent;
+    font-weight: bolder;
+    padding: 14px 33px;
+    border-radius: 33px;
+    transition: 3s;
+}
+ button:hover{
+    background-color: transparent;
+    border: 2px solid red ;
+ }
+
+ .contact-me{
+    width: 100%;
+    height: 290px;
+    background: var(--BGCOLOR1);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+ }
+ .contact-me p{
+    color: white;
+    font: 30px bold;
+    margin-bottom: 25px;
+ }
+
+ .contact-me .button-two {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 10px 25px;
+    border-radius: 67px;
+    transition:transform ,1s;
+ }
+
+ .contact-me .button-two:hover {
+   background-color: transparent;
+   border: 2px solid red;
+   cursor: pointer; 
+ }
+
+ footer{
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background-color: rgb(36, 30, 30);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
